@@ -1,0 +1,2 @@
+alert dhcp any any -> any any (app-layer-event:dhcp.malformed_options; sid:1000001;)
+alert dhcp any any -> any any (app-layer-event:dhcp.truncated_options; sid:1000002;)
